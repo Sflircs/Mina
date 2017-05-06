@@ -1,0 +1,58 @@
+/*!
+ *   Mina v1.0.0
+ *   Author: Bachdv
+ *	 Website: Bachdv
+ *   License: Open source - MIT
+ *           Please visit http://opensource.org/licenses/MIT for more information
+!*/
+//google fonts
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,600,700,300italic,400italic,600italic);
+// //MISC
+// //----
+@import "mina/_variables";
+@import "mina/_core";
+@import "mina/_mixins";
+@import "mina/_miscellaneous";
+// //COMPONENTS
+// //-----------
+@import "mina/components/header";
+@import "mina/components/sidebar";
+@import "mina/components/sidebar-mini";
+@import "mina/components/control-sidebar";
+@import "mina/components/dropdown";
+@import "mina/components/forms";
+@import "mina/components/progress-bars";
+@import "mina/components/small-box";
+@import "mina/components/boxes";
+@import "mina/components/info-box";
+@import "mina/components/timeline";
+@import "mina/components/buttons";
+@import "mina/components/callout";
+@import "mina/components/alerts";
+@import "mina/components/navs";
+@import "mina/components/products";
+@import "mina/components/table";
+@import "mina/components/labels";
+@import "mina/components/direct-chat";
+@import "mina/components/users-list";
+@import "mina/components/carousel";
+@import "mina/components/modal";
+@import "mina/components/social-widgets";
+// //PAGES
+// //------
+@import "mina/pages/mailbox";
+@import "mina/pages/lockscreen";
+@import "mina/pages/login_and_register";
+@import "mina/pages/404_500_errors";
+@import "mina/pages/invoice";
+@import "mina/pages/profile";
+// //Plugins
+// //--------
+@import "mina/plugins/bootstrap-social";
+@import "mina/plugins/fullcalendar";
+@import "mina/plugins/select2";
+// //Miscellaneous
+// //-------------
+// @import "miscellaneous.less";
+@import "mina/_print";
+@import "mina/skins/all-skins";
