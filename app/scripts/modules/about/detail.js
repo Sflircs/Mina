@@ -2,13 +2,13 @@
 
 /**
  * @ngdoc function
- * @name minaApp.controller:MainCtrl
+ * @name minaApp.controller:AboutDetailCtrl
  * @description
- * # MainCtrl
+ * # AboutDetailCtrl
  * Controller of the minaApp
  */
 angular.module('minaApp')
-  .controller('MainCtrl', function () {
+  .controller('AboutDetailCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',

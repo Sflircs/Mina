@@ -35,12 +35,12 @@ app.config(function ($routeProvider, $stateProvider, $urlRouterProvider) {
     .state('main.all', {
       url: '/all',
       templateUrl: 'scripts/modules/main/views/all.html',
-      controller: 'MainCtrl'
+      controller: 'MainAllCtrl'
     })
     .state('main.detail', {
       url: '/{id:int}',
       templateUrl: 'scripts/modules/main/views/detail.html',
-      controller: 'MainCtrl'
+      controller: 'MainDetailCtrl'
     })
 
     .state('about', {
@@ -50,12 +50,12 @@ app.config(function ($routeProvider, $stateProvider, $urlRouterProvider) {
     .state('about.all', {
       url: '/all',
       templateUrl: 'scripts/modules/about/views/all.html',
-      controller: 'AboutCtrl'
+      controller: 'AboutAllCtrl'
     })
     .state('about.detail', {
       url: '/{id:int}',
       templateUrl: 'scripts/modules/about/views/detail.html',
-      controller: 'AboutCtrl'
+      controller: 'AboutDetailCtrl'
     });
 });
 

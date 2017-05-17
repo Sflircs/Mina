@@ -6,6 +6,10 @@
 
 $boxed-layout-bg-image-path: "../img/boxed-bg.png";
 
+//FONTS
+//--------------------------------------------------------
+$font-size: 13px;
+
 //COLORS
 //--------------------------------------------------------
 //Primary
@@ -60,7 +64,7 @@ $sidebar-dark-submenu-color: lighten($sidebar-dark-submenu-bg, 40%);
 $sidebar-dark-submenu-hover-color: #fff;
 
 //Light sidebar
-$sidebar-light-bg: #f9fafc;
+$sidebar-light-bg: #e1e1e1;
 $sidebar-light-hover-bg: lighten(#f0f0f1, 1.5%);
 $sidebar-light-color: #444;
 $sidebar-light-hover-color: #000;

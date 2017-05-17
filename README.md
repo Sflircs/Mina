@@ -5,7 +5,7 @@ version 0.15.1.
 
 ## Build & development
 
-Run `grunt` for building and `grunt serve` for preview.
+Run `grunt` for building and `grunt serve` for preview. It's will open in http://localhost:9090
 
 ## Testing
 
